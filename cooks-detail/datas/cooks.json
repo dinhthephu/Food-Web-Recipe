@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Cốt lết chiên sả ớt",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2021/11/cot-let-chien-sa-ot-500.jpg",
+        "path": "/cooks-detail/cot-let-chien-sa-ot.html",
+        "ration": "4 người",
+        "vote": "66",
+        "spices": ["BỘT NGỌT AJI-NO-MOTO®", "XỐT MAYONNAISE AJI-MAYO® VỊ NGUYÊN BẢN", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Bánh rán trứng phô mai",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2021/08/banh-ran-kep-trung-pho-mai-500.jpg",
+        "path": "/cooks-detail/banh-ran-trung-pho-mai.html",
+        "ration": "4 người",
+        "vote": "37",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name":"Khoai chiên lắc mayo mè lá quế",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2023/08/khoai-chien-lac-mayo-me-500.jpg",
+        "path": "/cooks-detail/khoai-chien-lac-mayo-me-la-que.html",
+        "ration": "4 người",
+        "vote": "78",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Matcha flan",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2023/03/matcha-flan-500.jpg",
+        "path": "/cooks-detail/matcha-flan.html",
+        "ration": "2 người",
+        "vote": "35",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Canh nấm hạt sen",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2015/08/canh-nam-hat-sen-500.jpg.webp",
+        "path": "/cooks-detail/canh-nam-hat-sen.html",
+        "ration": "4 người",
+        "vote": "138",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Cà ri gà",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2008/04/ca-ri-ga-500.jpg",
+        "path": "/cooks-detail/ca-ri-ga.html",
+        "ration": "4 người",
+        "vote": "285",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Salad cam tình yêu",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2023/02/salad-cam-tinh-yeu-500.jpg",
+        "path": "/cooks-detail/salad-cam-tinh-yeu.html",
+        "ration": "4 người",
+        "vote": "35",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Smoothies trà sữa dâu",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2021/11/Smoothies-tra-sua-dau-500.jpg",
+        "path": "/cooks-detail/smoothies-tra-sua-dau.html",
+        "ration": "2 người",
+        "vote": "35",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Heo kho tàu",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2023/01/heo-kho-tau-500.jpg",
+        "path": "/cooks-detail/heo-kho-tau.html",
+        "ration": "4 người",
+        "vote": "45",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Khổ qua nhồi nấm kho nước tương",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2015/08/kho-qua-nhoi-nam-kho-nuoc-tuong-500.jpg",
+        "path": "/cooks-detail/kho-qua-nhoi-nam-kho-nuoc-tuong.html",
+        "ration": "4 người",
+        "vote": "244",
+        "spices": ["BỘT NGỌT AJI-NO-MOTO®", "HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Sườn chiên xốt mận",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2015/08/suon-chien-xot-man-500.jpg",
+        "path": "/cooks-detail/suon-chien-xot-man.html",
+        "ration": "4 người",
+        "vote": "376",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Cơm chiên thập cẩm",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2021/05/com-chien-thap-cam-500.jpg.webp",
+        "path": "/cooks-detail/com-chien-thap-cam.html",
+        "ration": "4 người",
+        "vote": "43",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Đậu mơ kẹp phô mai chiên",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2021/12/dau-mo-kep-pho-mai-chien-500.jpg",
+        "path": "/cooks-detail/dau-mo-kep-pho-mai-chien.html",
+        "ration": "4 người",
+        "vote": "43",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Nem vuông chay",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2023/02/nem-vuong-chay-500.jpg.webp",
+        "path": "/cooks-detail/nem-vuong-chay.html",
+        "ration": "4 người",
+        "vote": "57",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Cá nục kho thơm",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2015/08/ca-nuc-kho-thom-500.jpg",
+        "path": "/cooks-detail/ca-nuc-kho-thom.html",
+        "ration": "4 người",
+        "vote": "186",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    },
+    {
+        "name": "Bánh muffin chuối socola",
+        "image": "https://monngonmoingay.com/wp-content/uploads/2022/11/banh-muffin-chuoi-socola-500.jpg",
+        "path": "/cooks-detail/banh-muffin-chuoi-socola.html",
+        "ration": "2 người",
+        "vote": "21",
+        "spices": ["HẠT NÊM AJI-NGON® HEO", "NƯỚC TƯƠNG \"PHÚ SĨ\""]
+    }
+]

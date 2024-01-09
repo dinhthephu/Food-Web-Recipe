@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ăn là thích</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css"> 
+    <link rel="stylesheet" href="./assets/css/home.css"> 
+    <link rel="stylesheet" href="./assets//fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="https://monngonmoingay.com/wp-content/uploads/2020/10/logo-aji-copy-3.png.webp" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="https://monngonmoingay.com/wp-content/uploads/2020/10/logo-mnmn.png.webp" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="	https://monngonmoingay.com/wp-content/uploads/2022/07/nau-chuan-an-lanh-mnmn.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-9">
+                        <div class="header__top">
+                            <!-- <span class="login">Đăng Nhập</span>
+                            <span class="seperate">|</span>
+                            <span class="register">
+                                <span href="" class="register-link">Đăng Ký</span>
+                            </span> -->
+                            <span class="login-hi">Xin Chào,</span>
+                            <img src="/assets/img/logophenikaa-uni.jpg" alt="" class="login-img">
+                            <span class="login-name"></span>
+                            <span class="login-icon">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </span>
+                            <ul class="login-menu">
+                                <li>
+                                    <a href="" class="login-menu-link">
+                                        <i class="fa-solid fa-user"></i>
+                                        Quản lý tài khoản
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/favourite.html" class="login-menu-link">
+                                        <i class="fa-solid fa-list-ul"></i>
+                                        Danh sách món ăn yêu thích
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/plan.html" class="login-menu-link">
+                                        <i class="fa-solid fa-clipboard-question"></i>
+                                        Hôm nay ăn gì?
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/login.html" class="login-menu-link">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        Thoát
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="header__navbar">
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="/home.html" class="header__navbar-item-link">
+                                        Danh Mục Thực Đơn
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="/plan.html" class="header__navbar-item-link">
+                                        Kế Hoạch Nấu Ăn
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="#" class="header__navbar-item-link">
+                                        Gia Vị Bạn Cần
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item-4">
+                                    <a href="/favourite.html" class="header__navbar-item-link">
+                                        Công Thức Yêu Thích
+                                    </a>
+                                    <!-- <div class="header__navbar-info">
+                                        <ul class="header__navbar-info-list">
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link">
+                                                    Thông tin dinh dưỡng
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link">
+                                                    Mách nhỏ
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link1">
+                                                    Hỏi đáp
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- search -->
+        <div class="search">
+            <div class="grid blocksearch">
+                <div class="grid__row">
+                    <div class="grid__column-2"></div>
+                    <div class="grid__column-8">
+                        <div class="grid__row">
+                            <div class="grid__column-9">
+                                <h4 class="search__title">Tìm kiếm công thức, nguyên liệu, cách nấu, dịp nấu,...</h4>
+                            </div>
+                            <div class="grid__column-3">
+                            </div>
+                        </div>
+                        <div class="searchbox">
+                            <div class="search__input">
+                                <input type="text" id="searchInputSpices" class="search__input-text" placeholder="Nhập tại đây..." class="placeholder-color">
+                                <button id="searchButtonSpices" class="search__input-btn">
+                                    <i class="search__input-btn-icon fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- slide spice -->
+        <div class="spice">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-3">
+                        <div class="spice__sidebar">
+                            <ul class="spice__sidebar__list">
+                                <!-- bột ngọt -->
+                                <li>
+                                    <a href="/spice-detail/bot-ngot.html">
+                                        <span>Bột ngọt AJI-NO-MOTO®</span>
+                                    </a>
+                                </li>
+                                <!-- hạt nêm -->
+                                <li>
+                                    <span>
+                                        Hạt nêm Aji-ngon®
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="/spice-detail/hat-nem-heo.html">
+                                                <span>Hạt nêm Aji-ngon® Heo</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/spice-detail/hat-nem-nam.html">
+                                                <span>Hạt nêm Aji-ngon® Nấm</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/spice-detail/hat-nem-ga.html">
+                                                <span>Hạt nêm Aji-ngon® Gà</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- xốt -->
+                                <li>
+                                    <span>
+                                        Xốt Mayonnaise Aji-mayo®
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="/spice-detail/xot-nguyen-ban.html">
+                                                <span>Xốt Mayonnaise Aji-mayo® Vị Nguyên Bản</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/spice-detail/xot-ngot-diu.html">
+                                                <span>Xốt Mayonnaise Aji-mayo® Vị Ngọt Dịu</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- nước tương -->
+                                <li>
+                                    <a href="/spice-detail/nuoc-tuong-phu-si.html">
+                                        <span>Nước tương "Phú Sĩ"</span>
+                                    </a>
+                                </li>
+                                <!-- giấm -->
+                                <li>
+                                    <a href="/spice-detail/giam-gao-len-men.html">
+                                        <span>Giấm gạo lên men Ajinomoto</span>
+                                    </a>
+                                </li>
+                                <!-- Gia vị -->
+                                <li>
+                                    <span>
+                                        Gia vị nêm sẵn Aji-Quick®
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="/spice-detail/thit-kho-tau.html">
+                                                <span>Gia vị nêm sẵn Aji-Quick® Thịt Kho tàu</span>
+                                            </a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="/spice-detail/">
+                                                <span>Gia vị món kho Aji-Quick® Cá Kho</span>
+                                            </a>
+                                        </li> -->
+                                        <!-- <li>
+                                            <a href="">
+                                                <span>Gia vị nêm sẵn Aji-Quick® Lẩu Kim Chi</span>
+                                            </a>
+                                        </li> -->
+                                        <li>
+                                            <a href="/spice-detail/bot-chien-gion.html">
+                                                <span>Gia vị nêm sẵn Aji-Quick® Bột chiên giòn</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/spice-detail/bot-tam-kho-chien-gion.html">
+                                                <span>Gia vị nêm sẵn Aji-Quick® Bột tẩm khô chiên giòn</span>
+                                            </a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="/spice-detail/thit-kho.html">
+                                                <span>Gia vị nêm sẵn Aji-Quick® Thịt Kho</span>
+                                            </a>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <!-- bột canh -->
+                                <!-- <li>
+                                    <a href="">
+                                        <span>Bột canh</span>
+                                    </a>
+                                </li> -->
+                                <!-- bột bánh -->
+                                <li>
+                                    <span>
+                                        Bột Bánh rán pha sẵn
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="/spice-detail/bua-sang-dinh-duong.html">
+                                                <span>Bột bánh rán pha sẵn bữa sáng dinh dưỡng</span>
+                                            </a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="">
+                                                <span>Bột bánh rán pha sẵn vị truyền thống</span>
+                                            </a>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <!-- trà uống -->
+                                <li>
+                                    <span>
+                                        Trà uống hòa tan Blendy®
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </span>
+                                    <ul>
+                                        <!-- <li>
+                                            <a href="/spice-detail/tra-sua-dau.html">
+                                                <span>Blendy® Trà Matcha Sữa</span>
+                                            </a>
+                                        </li> -->
+                                        <li>
+                                            <a href="/spice-detail/tra-matcha-gao-rang.html">
+                                                <span>Blendy® Trà Matcha Gạo Rang</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/spice-detail/tra-sua-dau.html">
+                                                <span>Blendy™ Trà Sữa Dâu</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid__column-9">
+                        <!-- spice list -->
+                        <div class="grid__row spice-list">
+                            
+                        </div>
+                        <div class="paging">
+                            <!-- <a href="" class="page-numbers"><<</a> -->
+                            <a class="page-numbers current" id = "page1">1</a>
+                            <a href="" class="page-numbers" id = "page2">2</a>
+                            <!-- <a href="" class="page-numbers" id = "page3">3</a> -->
+                            <!-- <span class="page-numbers dots no-pointer-events">...</span> -->
+                            <!-- <a href="" class="page-numbers">8</a> -->
+                            <!-- <a href="" class="page-numbers">9</a> -->
+                            <!-- <a href="" class="page-numbers">10</a> -->
+                            <!-- <a href="" class="next page-numbers"> -->
+                                <!-- Tiếp -->
+                                <!-- <i class="page-numbers-icon fa-solid fa-angle-right"></i> -->
+                            <!-- </a> -->
+                            <!-- <a href="" class="page-numbers">>></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-detailmain footer__text">
+                        Copyright © 2021 • Ajinomoto Vietnam • All rights reserved
+                        <a class="footer__link" href="https://www.dmca.com/Protection/Status.aspx?ID=9b5c3473-968a-4049-b577-9dc6d3fda2f5&refurl=https://monngonmoingay.com/tim-kiem-mon-ngon/" target="_blank">
+                            <img width="200" height="40" src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=9b5c3473-968a-4049-b577-9dc6d3fda2f5" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>      
+    </div>
+</body>
+</html>
+
+<script>
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Lấy danh sách tất cả các liên kết trang
+    var pageLinks = document.querySelectorAll('.page-numbers');
+
+    // Lặp qua từng liên kết
+    pageLinks.forEach(function (link) {
+        // Gắn sự kiện click cho từng liên kết
+        link.addEventListener('click', function (event) {
+            // Ngăn chặn hành vi mặc định của liên kết (ngăn trình duyệt chuyển hướng)
+            event.preventDefault();
+
+            // Loại bỏ class "current" từ tất cả các liên kết trang
+            pageLinks.forEach(function (pageLink) {
+                pageLink.classList.remove('current');
+            });
+
+            // Thêm class "current" cho liên kết vừa được nhấp chuột
+            link.classList.add('current');
+
+            // Lấy số trang từ nội dung liên kết
+            const pageNumber = parseInt(link.textContent);
+            if (!isNaN(pageNumber)) {
+                // Gọi hàm chuyển đến trang số pageNumber
+                app.goToPage(pageNumber);
+            }
+        });
+    });
+
+    const app = {
+        spices: [],
+        currentPage: 1, // Trang hiện tại
+        itemsPerPage: 12, // Số món ăn trên mỗi trang
+
+        render: function (spicesToRender) {
+            const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+            const endIndex = startIndex + this.itemsPerPage;
+            const visibleSpices = spicesToRender.slice(startIndex, endIndex);
+
+            const htmls = visibleSpices.map(spice => `
+                <div class="grid__column-3">
+                    <div class="spice-box">
+                        <div class="spice-box__img">
+                            <a href="${spice.path}">
+                                <img src="${spice.image}" alt="${spice.name}">
+                            </a>
+                        </div>
+                        <div class="spice-box__center">
+                            <span class="spice-box__center-line">&nbsp;</span>
+                        </div>
+                        <h2 class="spice-box__title" style="font-size: 14px;">
+                            <a href="${spice.path}">
+                                ${spice.name}
+                                <p>
+                                    <b>${spice.name2}</b>
+                                </p>
+                            </a>
+                        </h2>
+                        <div class="spice-box__btn">
+                            <div class="grid__column-6 spice-box_padding1">
+                                <a href="${spice.path}">
+                                    <div class="spice-box__btn-muangay">MUA NGAY</div>
+                                </a>
+                            </div>
+                            <div class="grid__column-6 spice-box_padding2">
+                                <a href="/home.html">
+                                    <div class="spice-box__btn-congthuc">
+                                        <span class="spice-box__btn-xemthem">XEM THÊM</span> <br>
+                                        <span>
+                                            <b>
+                                                CÔNG THỨC
+                                            </b>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `);
+
+            $('.spice-list').innerHTML = htmls.join('');
+
+            // Tạo trang trích dẫn
+            this.createPagination(spicesToRender.length);
+        },
+
+        createPagination: function (totalItems) {
+            const totalPages = Math.ceil(totalItems / this.itemsPerPage);
+            const paginationDiv = $('.pagination');
+            paginationDiv.innerHTML = '';
+
+            for (let i = 1; i <= totalPages; i++) {
+                const pageLink = document.createElement('a');
+                pageLink.href = '#';
+                pageLink.textContent = i;
+                pageLink.classList.add('page-numbers');
+
+                if (i === this.currentPage) {
+                    pageLink.classList.add('current');
+                }
+
+                paginationDiv.appendChild(pageLink);
+            }
+        },
+
+        goToPage: function (pageNumber) {
+            // Kiểm tra xem pageNumber có nằm trong phạm vi hợp lệ không
+            if (pageNumber >= 1 && pageNumber <= Math.ceil(this.spices.length / this.itemsPerPage)) {
+                this.currentPage = pageNumber;
+                this.render(this.spices);
+            }
+        },
+
+        start: function () {
+            // Fetch the data from the JSON file
+            fetch('cooks-detail/datas/spices.json') // Đường dẫn tới tệp JSON trong thư mục 'datas'
+                .then(response => response.json())
+                .then(data => {
+                    this.spices = data;
+                    this.render(this.spices);
+                })
+                .catch(error => {
+                    console.error('Lỗi khi tải dữ liệu từ tệp JSON: ', error);
+                });
+
+            const searchInput = $('#searchInputSpices');
+            const searchButton = $('#searchButtonSpices');
+
+            // Xử lý tìm kiếm khi người dùng ấn Enter
+            searchInput.addEventListener('keyup', event => {
+                if (event.key === 'Enter') {
+                    this.performSearch();
+                }
+            });
+
+            // Xử lý tìm kiếm khi người dùng nhấp vào nút tìm kiếm
+            searchButton.addEventListener('click', () => {
+                this.performSearch();
+            });
+
+            window.onload = function() {
+                // Lấy giá trị từ URL
+                var urlParams = new URLSearchParams(window.location.search);
+                var inputValue = urlParams.get('search');
+                console.log(inputValue);
+                if (inputValue) {
+                    const searchResults = app.spices.filter(spice => spice.name.toLowerCase().includes(inputValue));
+                    app.render(searchResults);
+                }
+            }
+        },
+
+        performSearch: function () {
+            this.currentPage = 1; // Reset trang về 1 sau khi tìm kiếm
+            const searchTerm = $('#searchInputSpices').value.toLowerCase(); // Lấy từ khóa tìm kiếm
+
+            // Lọc danh sách các món ăn dựa trên từ khóa tìm kiếm
+            const searchResults = this.spices.filter(spice => spice.name.toLowerCase().includes(searchTerm));
+
+            // Hiển thị kết quả tìm kiếm
+            this.render(searchResults);
+        },
+    };
+
+    app.start();
+});
+</script>
+
+
+
+<!-- <script>
+    const $ = document.querySelector.bind(document);
+    const $$ = document.querySelectorAll.bind(document);
+
+    const app = {
+        spices: [],
+        render: function() {
+            const htmls = this.spices.map(spice => {
+                return `
+                <div class="grid__column-4">
+                    <div class="spice-box">
+                        <div class="spice-box__img">
+                            <a href="${spice.path}">
+                                <img src="${spice.image}" alt="${spice.name}">
+                            </a>
+                        </div>
+                        <div class="spice-box__center">
+                            <span class="spice-box__center-line">&nbsp;</span>
+                        </div>
+                        <h2 class="spice-box__title" style="font-size: 14px;">
+                            <a href="${spice.path}">
+                                ${spice.name}
+                                <p>
+                                    <b>${spice.name2}</b>
+                                </p>
+                            </a>
+                        </h2>
+                        <div class="spice-box__btn">
+                            <div class="grid__column-6 spice-box_padding1">
+                                <a href="${spice.path}">
+                                    <div class="spice-box__btn-muangay">MUA NGAY</div>
+                                </a>
+                            </div>
+                            <div class="grid__column-6 spice-box_padding2">
+                                <a href="/home.html">
+                                    <div class="spice-box__btn-congthuc">
+                                        <span class="spice-box__btn-xemthem">XEM THÊM</span> <br>
+                                        <span>
+                                            <b>
+                                                CÔNG THỨC
+                                            </b>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+
+            $('.spice-list').innerHTML = htmls.join('');
+        },
+        fetchData: function() {
+            fetch('cooks-detail/datas/spices.json') // Đường dẫn tới tệp JSON trong thư mục 'datas'
+                .then(response => response.json())
+                .then(data => {
+                    this.spices = data;
+                    this.render();
+                })
+                .catch(error => {
+                    console.error('Lỗi khi tải dữ liệu từ tệp JSON: ', error);
+                });
+        },
+        start: function() {
+            this.fetchData();
+        }
+    };
+    app.start();
+</script> -->

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ăn là thích </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets//fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="https://monngonmoingay.com/wp-content/uploads/2020/10/logo-aji-copy-3.png.webp" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="https://monngonmoingay.com/wp-content/uploads/2020/10/logo-mnmn.png.webp" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="	https://monngonmoingay.com/wp-content/uploads/2022/07/nau-chuan-an-lanh-mnmn.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-9">
+                        <div class="header__top">
+                            <!-- <span class="login">Đăng Nhập</span>
+                            <span class="seperate">|</span>
+                            <span class="register">
+                                <span href="" class="register-link">Đăng Ký</span>
+                            </span> -->
+                            <span class="login-hi">Xin Chào,</span>
+                            <img src="/assets/img/logophenikaa-uni.jpg" alt="" class="login-img">
+                            <span class="login-name"></span>
+                            <span class="login-icon">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </span>
+                            <ul class="login-menu">
+                                <li>
+                                    <a href="" class="login-menu-link">
+                                        <i class="fa-solid fa-user"></i>
+                                        Quản lý tài khoản
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/favourite.html" class="login-menu-link">
+                                        <i class="fa-solid fa-list-ul"></i>
+                                        Danh sách món ăn yêu thích
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/plan.html" class="login-menu-link">
+                                        <i class="fa-solid fa-clipboard-question"></i>
+                                        Hôm nay ăn gì?
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/login.html" class="login-menu-link">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        Thoát
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="header__navbar">
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="./home.html" class="header__navbar-item-link" id="home-link">
+                                        Danh Mục Thực Đơn
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="plan.html" class="header__navbar-item-link" id="plan-link">
+                                        Kế Hoạch Nấu Ăn
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="/spice.html" class="header__navbar-item-link" id="spice-link">
+                                        Gia Vị Bạn Cần
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item-4">
+                                    <a href="./favourite.html" class="header__navbar-item-link" id="favorite-link">
+                                        Công Thức Yêu Thích
+                                    </a>
+                                    <!-- <div class="header__navbar-info">
+                                        <ul class="header__navbar-info-list">
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link">
+                                                    Thông tin dinh dưỡng
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link">
+                                                    Mách nhỏ
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link1">
+                                                    Hỏi đáp
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- search -->
+        <div class="search">
+            <div class="grid blocksearch">
+                <div class="grid__row">
+                    <div class="grid__column-2"></div>
+                    <div class="grid__column-8">
+                        <div class="grid__row">
+                            <div class="grid__column-9">
+                                <h4 class="search__title">Tìm kiếm công thức, nguyên liệu, cách nấu, dịp nấu,...</h4>
+                            </div>
+                            <div class="grid__column-3">
+                            </div>
+                        </div>
+                        <div class="searchbox">
+                            <div class="search__input">
+                                <input type="text" id="searchInput" class="search__input-text placeholder-color" placeholder="Nhập tại đây...">
+                                <button id="searchButton" class="search__input-btn">
+                                    <i class="search__input-btn-icon fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- main page -->
+        <div class="mainpage">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-detailmain">
+                        <div class="grid__row grid__row-magin">
+                            <div class="grid__column-detailmain">
+                                <div class="icon-heading">
+                                    <img width="94" height="25" src="https://monngonmoingay.com/wp-content/uploads/2020/10/icon-thangnayangi.png.webp" alt="icon mamn">
+                                </div>
+                                <h3 class="mainpage-text">
+                                    THỰC ĐƠN MÓN NGON MỖI NGÀY
+                                </h3>
+                            </div>
+                        </div>
+                        <!-- main list -->
+                        <div class="grid__row mainpage-list">
+                            
+                        </div>
+                        <!-- paging -->
+                        <div class="paging">
+                            <!-- <a href="" class="page-numbers"><<</a> -->
+                            <a class="page-numbers current" id = "page1">1</a>
+                            <a href="" class="page-numbers" id = "page2">2</a>
+                            <!-- <a href="" class="page-numbers" id = "page3">3</a> -->
+                            <!-- <span class="page-numbers dots no-pointer-events">...</span> -->
+                            <!-- <a href="" class="page-numbers">8</a> -->
+                            <!-- <a href="" class="page-numbers">9</a> -->
+                            <!-- <a href="" class="page-numbers">10</a> -->
+                            <!-- <a href="" class="next page-numbers"> -->
+                                <!-- Tiếp -->
+                                <!-- <i class="page-numbers-icon fa-solid fa-angle-right"></i> -->
+                            <!-- </a> -->
+                            <!-- <a href="" class="page-numbers">>></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-detailmain footer__text">
+                        Copyright © 2021 • Ajinomoto Vietnam • All rights reserved
+                        <a class="footer__link" href="https://www.dmca.com/Protection/Status.aspx?ID=9b5c3473-968a-4049-b577-9dc6d3fda2f5&refurl=https://monngonmoingay.com/tim-kiem-mon-ngon/" target="_blank">
+                            <img width="200" height="40" src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=9b5c3473-968a-4049-b577-9dc6d3fda2f5" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
+
+
+

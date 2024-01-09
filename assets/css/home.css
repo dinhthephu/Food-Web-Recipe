@@ -1,0 +1,129 @@
+/* main page */
+.mainpage {
+    /* min-height: calc(100vh - (70px + 195px)); */
+    background-color: #f0efea;
+    padding: 24px 0;
+}
+
+.icon-heading {
+    font-size: 1.6rem;
+    margin-bottom: 6px;    
+}
+
+.mainpage-text {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8rem;
+    /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* main list */
+.mainpage-item {
+    height: auto;
+    margin: 0 0 30px 0;
+    position: relative;
+    background-color: var(--while-color);
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: transform ease-in 0.15s;
+    will-change: transform;
+}
+
+.mainpage-item:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    transform: translateY(-2px);
+}
+
+.mainpage-item__img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.mainpage-item__info {
+    background-color: var(--while-color);
+    padding: 0 10px 10px 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.mainpage-item__info a {
+    text-decoration: none;
+    }
+.mainpage-item__info-text {
+    margin: 0 0 8px 0;
+    height: 4.2rem;
+    font-size: 1.8rem;
+    color: #c00;
+    line-height: 2rem;
+    font-weight: 500;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;    
+}
+
+.mainpage-item__info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.mainpage-item__info li {
+    padding: 0 5px;
+}
+
+.mainpage-item__info-icon {
+    background: url(https://monngonmoingay.com/wp-content/themes/monngonmoingay/images/icon-pot.png.webp);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+}
+
+.mainpage-item__info-vote {
+    background: url(https://monngonmoingay.com/wp-content/themes/monngonmoingay/images/icon-vote-small.png.webp);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+/* paging */
+.paging {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.page-numbers {
+    font-size: 1.7rem;
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid transparent;
+    color: #444;
+    cursor: pointer;
+}
+
+.page-numbers:hover {
+    color: #eb232a;
+}
+
+.page-numbers-icon {
+    font-size: 1.2rem;
+}
+
+.current {
+    border: 1px solid #eb232a;
+    border-radius: 5px;
+    color: #eb232a;
+    cursor: text;
+}

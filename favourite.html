@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ăn là thích</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/main.css"> 
+    <link rel="stylesheet" href="/assets/css/home.css"> 
+    <link rel="stylesheet" href="/assets//fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="https://monngonmoingay.com/wp-content/uploads/2020/10/logo-aji-copy-3.png.webp" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="https://monngonmoingay.com/wp-content/uploads/2020/10/logo-mnmn.png.webp" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-1">
+                        <a href="" class="header__logo-link">
+                            <img src="	https://monngonmoingay.com/wp-content/uploads/2022/07/nau-chuan-an-lanh-mnmn.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="grid__column-9">
+                        <div class="header__top">
+                            <!-- <span class="login">Đăng Nhập</span>
+                            <span class="seperate">|</span>
+                            <span class="register">
+                                <span href="" class="register-link">Đăng Ký</span>
+                            </span> -->
+                            <span class="login-hi">Xin Chào,</span>
+                            <img src="/assets/img/logophenikaa-uni.jpg" alt="" class="login-img">
+                            <span class="login-name"></span>
+                            <span class="login-icon">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </span>
+                            <ul class="login-menu">
+                                <li>
+                                    <a href="" class="login-menu-link">
+                                        <i class="fa-solid fa-user"></i>
+                                        Quản lý tài khoản
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/favourite.html" class="login-menu-link">
+                                        <i class="fa-solid fa-list-ul"></i>
+                                        Danh sách món ăn yêu thích
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/plan.html" class="login-menu-link">
+                                        <i class="fa-solid fa-clipboard-question"></i>
+                                        Hôm nay ăn gì?
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/login.html" class="login-menu-link">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        Thoát
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="header__navbar">
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="./home.html" class="header__navbar-item-link">
+                                        Danh Mục Thực Đơn
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="/plan.html" class="header__navbar-item-link">
+                                        Kế Hoạch Nấu Ăn
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="/spice.html" class="header__navbar-item-link">
+                                        Gia Vị Bạn Cần
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item header__navbar-item-4">
+                                    <a href="/favourite.html" class="header__navbar-item-link">
+                                        Công Thức Yêu Thích
+                                    </a>
+                                    <!-- <div class="header__navbar-info">
+                                        <ul class="header__navbar-info-list">
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link">
+                                                    Thông tin dinh dưỡng
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link">
+                                                    Mách nhỏ
+                                                </a>
+                                            </li>
+                                            <li class="header__navbar-info-item">
+                                                <a href="" class="header__navbar-info-link1">
+                                                    Hỏi đáp
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- search -->
+        <div class="search">
+            <div class="grid blocksearch">
+                <div class="grid__row">
+                    <div class="grid__column-2"></div>
+                    <div class="grid__column-8">
+                        <div class="grid__row">
+                            <div class="grid__column-9">
+                                <h4 class="search__title">Tìm kiếm công thức, nguyên liệu, cách nấu, dịp nấu,...</h4>
+                            </div>
+                            <div class="grid__column-3">
+                            </div>
+                        </div>
+                        <div class="searchbox">
+                            <div class="search__input">
+                                <input type="text" id="searchInputFavorite" class="search__input-text" placeholder="Nhập tại đây..." class="placeholder-color">
+                                <button id="searchButtonFavorite" class="search__input-btn">
+                                    <i class="search__input-btn-icon fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column-2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- slide favourite -->
+        <div class="favourite">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-detailmain">
+                        <div class="grid__row grid__row-magin">
+                            <div class="grid__column-detailmain">
+                                <div class="favourite-heading-img">
+                                    <img width="94" height="25" src="	https://monngonmoingay.com/wp-content/uploads/2020/10/icon-kh-congthuc.png.webp" alt="">
+                                </div>
+                                <div class="favourite-heading-tittle">
+                                    <h1>CÔNG THỨC YÊU THÍCH</h1>
+                                    Lưu lại công thức yêu thích một cách dễ dàng, khi cần ý tưởng là bạn có ngay
+                                </div>
+                                <div class="fouvourite-storage">
+                                    Công thức đã lưu
+                                    <i class="fouvourite-storage-icon fa-regular fa-heart"></i>
+                                </div>
+                                <!-- favourite -->
+                                <div class="grid__row favourite-list">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-detailmain footer__text">
+                        Copyright © 2021 • Ajinomoto Vietnam • All rights reserved
+                        <a class="footer__link" href="https://www.dmca.com/Protection/Status.aspx?ID=9b5c3473-968a-4049-b577-9dc6d3fda2f5&refurl=https://monngonmoingay.com/tim-kiem-mon-ngon/" target="_blank">
+                            <img width="200" height="40" src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-09.png?ID=9b5c3473-968a-4049-b577-9dc6d3fda2f5" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>      
+    </div>
+</body>
+</html>
+
+<script>
+    const $ = document.querySelector.bind(document);
+    const $$ = document.querySelectorAll.bind(document);
+
+    const app = {
+        favoriteCooks: [], // Thêm thuộc tính favoriteCooks để lưu trữ danh sách món ăn yêu thích
+    
+        render: function (cooksToRender) {
+            // Hiển thị danh sách các món ăn yêu thích
+            const htmls = cooksToRender.map(cook => {
+                return `
+                    <div class="grid__column-3">
+                        <div class="mainpage-item">
+                            <div class="mainpage-item__link">
+                                <a href="${cook.path}">
+                                    <img class="mainpage-item__img" src="${cook.image}" alt="${cook.name}">
+                                </a>
+                            </div>
+                            <div class="mainpage-item__info">
+                                <a href="${cook.path}">
+                                    <h3 class="mainpage-item__info-text">${cook.name}</h3>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <span class="mainpage-item__info-icon"> ${cook.ration} </span>
+                                    </li>
+                                    <li>
+                                        <span class="mainpage-item__info-vote"> ${cook.vote} </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+    
+            const favoriteList = $('.favourite-list');
+            if (favoriteList) {
+                favoriteList.innerHTML = htmls.join('');
+            }
+        },
+    
+        start: function () {
+            // Lấy danh sách món ăn yêu thích từ Local Storage
+            const favoriteCooks = JSON.parse(localStorage.getItem('favoriteCooks'));
+            this.favoriteCooks = favoriteCooks || []; // Nếu không có danh sách, gán một mảng trống
+    
+            const searchInput = $('#searchInputFavorite');
+            const searchButton = $('#searchButtonFavorite');
+    
+            // Xử lý tìm kiếm khi người dùng ấn Enter
+            searchInput.addEventListener('keyup', event => {
+                if (event.key === 'Enter') {
+                    this.performSearch();
+                }
+            });
+    
+            // Xử lý tìm kiếm khi người dùng nhấp vào nút tìm kiếm
+            searchButton.addEventListener('click', () => {
+                this.performSearch();
+            });
+    
+            // Hiển thị danh sách món ăn yêu thích ban đầu
+            this.render(this.favoriteCooks);
+        },
+    
+        performSearch: function () {
+            const searchTerm = $('#searchInputFavorite').value.toLowerCase(); // Lấy từ khóa tìm kiếm
+    
+            // Lọc danh sách các món ăn dựa trên từ khóa tìm kiếm
+            const searchResults = this.favoriteCooks.filter(favoriteCook => favoriteCook.name.toLowerCase().includes(searchTerm));
+    
+            // Hiển thị kết quả tìm kiếm
+            this.render(searchResults);
+        },
+    };
+    
+    app.start();
+    console.log(localStorage);
+    </script>
+    
+    
+
+ <!-- 
+//     <script>
+// const $ = document.querySelector.bind(document);
+// const $$ = document.querySelectorAll.bind(document);
+
+// const app = {
+//     render: function () {
+//         const favoriteCooks = JSON.parse(localStorage.getItem('favoriteCooks'));
+
+//         if (favoriteCooks && favoriteCooks.length > 0) {
+//             // Hiển thị danh sách các món ăn yêu thích
+//             const htmls = favoriteCooks.map(cook => {
+//                 return `
+//                     <div class="grid__column-3">
+//                         <div class="mainpage-item">
+//                             <div class="mainpage-item__link">
+//                                 <a href="${cook.path}">
+//                                     <img class="mainpage-item__img" src="${cook.image}" alt="${cook.name}">
+//                                 </a>
+//                             </div>
+//                             <div class="mainpage-item__info">
+//                                 <a href="${cook.path}">
+//                                     <h3 class="mainpage-item__info-text">${cook.name}</h3>
+//                                 </a>
+//                                 <ul>
+//                                     <li>
+//                                         <span class="mainpage-item__info-icon"> ${cook.ration} </span>
+//                                     </li>
+//                                     <li>
+//                                         <span class="mainpage-item__info-vote"> ${cook.vote} </span>
+//                                     </li>
+//                                 </ul>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 `;
+//             });
+
+//             $('.favourite-list').innerHTML = htmls.join('');
+//         }
+//     },
+//     start: function () {
+//         this.render();
+//     }
+// };
+
+// app.start();
+// console.log(localStorage);
+
+// </script>
+
